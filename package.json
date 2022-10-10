@@ -1,7 +1,7 @@
 {
   "name": "to-do-list",
   "version": "0.1.0",
-  "homepage": "https://mrfrunze.github.io/react-todo-list",
+  "homepage": "https://mrfrunze.github.io/react_deply_gh",
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
