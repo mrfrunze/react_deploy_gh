@@ -16,8 +16,11 @@
 
 Добавьте homepageсвойство в этом формате*:https://{username}.github.io/{repo-name}
 
-> {
+<pre>
+{
   "name": "my-app",
   "version": "0.1.0",
-+ "homepage": "https://gitname.github.io/react-gh-pages",
+    <span class="pl-mi1">
+    <span class="pl-mi1">+</span> "homepage": "https://gitname.github.io/react-gh-pages",</span>
   "private": true,
+  </pre>
