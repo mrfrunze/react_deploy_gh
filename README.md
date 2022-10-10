@@ -8,11 +8,11 @@
 
 > npm uninstall @testing-library/jest-dom @testing-library/react @testing-library/user-event web-vitals
 
-## 3. Установите gh-pagesпакет npm
+## 3. Установите gh-pages пакет npm
 
 > npm install gh-pages --save-dev / or -D
 
-## 4. Добавьте homepage свойство в package.jsonфайл
+## 4. Добавьте homepage свойство в package.json файл
 
 Добавьте homepageсвойство в этом формате*:https://{username}.github.io/{repo-name}
 
@@ -39,10 +39,17 @@
 > 
 - git init 
 - git add .
--git commit -m "first commit"
+- git commit -m "first commit"
 
-After thad you need add
+After t you need add
 > 
 - git remote add origin https://github.com/{username}/{repo-name}.git
 - git branch -M main
 - git push -u origin main
+
+## 7. Разверните приложение React на страницах GitHub
+
+> 
+- npm run deploy
+- перейдем по ссылке которую указали в файле  package.json
+- "homepage": "https://gitname.github.io/react-gh-pages"
