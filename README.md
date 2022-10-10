@@ -20,6 +20,27 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-    <span>"homepage": "https://gitname.github.io/react-gh-pages",</span>
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "private": true,
-  </pre>
+</pre>
+
+## 5. Добавьте в script развертывания в package.json файл
+
+<pre>
+"scripts": {
+    + "predeploy": "npm run build",
+    + "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+</pre>
+
+## 6. Добавьте «удаленный репозиторий» к себе в проект, указывающий на репозиторий GitHub
+
+> git init 
+> git add .
+> git commit -m "first commit"
+
+After thad you need add
+> git remote add origin https://github.com/{username}/{repo-name}.git
+> git branch -M main
+> git push -u origin main
