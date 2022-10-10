@@ -36,11 +36,13 @@
 
 ## 6. Добавьте «удаленный репозиторий» к себе в проект, указывающий на репозиторий GitHub
 
-> git init 
-> git add .
-> git commit -m "first commit"
+> 
+- git init 
+- git add .
+-git commit -m "first commit"
 
 After thad you need add
-> git remote add origin https://github.com/{username}/{repo-name}.git
-> git branch -M main
-> git push -u origin main
+> 
+- git remote add origin https://github.com/{username}/{repo-name}.git
+- git branch -M main
+- git push -u origin main
