@@ -1,10 +1,6 @@
-# проверим работу props, default title
+# Развертывание приложения React* на страницах GitHub
 
-# перенесем все данные из Content js to App js и передадим в Content в виде деструктуризации 
+## Создайте пустой репозиторий на GitHub 
 
-# setItems - мы не переносим, достатчно прописат import { useState } from 'react' в App js
-
-# вынесим список ul to ItemList Ctrl + Alt + r = rafce
-
-# добаввим новый сомпонет Lineitem 
+> Для сайта проекта вы можете ввести любое имя. Для пользовательского сайта GitHub требует , чтобы имя репозитория имело следующий формат: {username}.github.io(например gitname.github.io)
 
