@@ -20,7 +20,6 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-    <span class="pl-mi1">
-    <span class="pl-mi1">+</span> "homepage": "https://gitname.github.io/react-gh-pages",</span>
+    <span>"homepage": "https://gitname.github.io/react-gh-pages",</span>
   "private": true,
   </pre>
